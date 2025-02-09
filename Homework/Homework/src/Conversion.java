@@ -23,7 +23,11 @@ public class Conversion {
 		
 		//Display Results
 		
-		System.out.println( pounds + " pounds is " + kilograms + " kilograms ");
+		System.out.println( pounds + " pounds is " + kilograms + " kilograms " );
+		
+		//Close Scanner prevent memory leaks
+		
+		input.close();
 					
 	}
 
