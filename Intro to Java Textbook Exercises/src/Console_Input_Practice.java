@@ -12,7 +12,7 @@ public class Console_Input_Practice {
 		System.out.println ("Enter a number for radius: ");
 		double radius = input.nextDouble();
 		
-		//Compute the area of the circle
+		//Compute the area of the circle with the console entered radius
 		double area = radius * radius * 3.14159;
 		
 		//Display the results
