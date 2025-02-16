@@ -39,8 +39,7 @@ public class Distance {
 		//Close Scanner
 		
 		input.close();
-		
-		
+				
 		}
 
 	}
