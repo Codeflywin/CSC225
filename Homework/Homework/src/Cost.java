@@ -32,6 +32,9 @@ public class Cost {
 		else
 				System.out.println("Two packages have the same price");
 		
+		//Close Scanner prevent memory leaks
+		
+				input.close();
 		
 	}
 

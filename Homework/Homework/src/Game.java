@@ -57,7 +57,10 @@ public class Game {
 			else
 				System.out.println(" You lose");
 		}
-			
+		
+		//Close Scanner prevent memory leaks
+		
+				input.close();	
 	}
 
 }
