@@ -19,7 +19,6 @@ public class Phone {
 		String s = input.nextLine();
 		char ch = s.charAt(0);
 		ch = Character.toUpperCase(ch);
-		
 		int number = 0;
 		
 //Determine what value to display
