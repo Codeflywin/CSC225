@@ -50,7 +50,7 @@ public class Phone {
 		System.out.println("The corresponding number is " + number);	
 		}
 
-//If input charcter invalid display error
+//If input character invalid display error
 		else {
 			System.out.println( ch + " is an invalid input.");
 		}
