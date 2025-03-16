@@ -18,7 +18,7 @@ public class Pyramid {
 				
 				int number = input.nextInt();
 				
-				//Determine Pyramid size
+				//Determine Pyramid size and print results
 				
 				for (int rows = 1; rows <= number; rows++) {
 					
