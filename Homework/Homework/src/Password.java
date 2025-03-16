@@ -16,6 +16,10 @@ public class Password {
 				
 				String s = input.nextLine();
 				
+				//Close scanner
+				
+				input.close();
+				
 				// Set the condition
 				
 				if (isValidPassword(s)) {
